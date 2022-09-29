@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .heroiconsStyle {
+        @apply flex items-center text-xl dark:border-[#59767A] border-[#d2d5d8] border dark:text-[#EEF1F1] px-2 p-3 rounded-md gap-4 dark:bg-[#151D1E] hover:-translate-y-1 transition cursor-pointer dark:shadow-elevationShadow2 dark:hover:shadow-elevationShadow4 shadow-elevationShadow1
+    }
+
+    .itemFooter {
+        @apply dark:text-[#D7D7D5] dark:hover:text-white text-[#5c5f62] hover:text-[#333] transition
+    }
+
+    .itemNavigation {
+        @apply lg:block hidden dark:text-[#D7D7D5] dark:hover:text-white font-normal text-[#5C5F62] hover:text-[#333] transition
+    }
+
+    .titleLeading {
+        @apply dark:text-[#EEF1F1] text-[#202223] font-bold
+    }
+
+    .pararaphStyle {
+        @apply dark:text-[#D7D7D5] leading-7 text-[#5C5F62]
+    }
+}
+
+.boxshadow {
+    box-shadow: 9px 9px 0 0 #000;
+}
